@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @ToString
-@NoArgsConstructor
+@NoArgsConstructor  // 매개변수가 없는 기본 생성자를 자동으로 생성
 public class BoardDto {
     private Long id;
     private String author;
@@ -37,3 +37,4 @@ public class BoardDto {
         this.modifiedDate = modifiedDate;
     }
 }
+// Board와 관련된 데이터 전송 객체(DTO)를 정의한 클래스
